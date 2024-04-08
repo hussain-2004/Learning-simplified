@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*Scroll bar*/
+        ::-webkit-scrollbar {
+            width: 10px;
+          }
+          
+          /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+          }
+           
+          /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+          }
+          
+          /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+          }
+    </style>
+</head>
+<body>
+    <ul class="quiz">
+        <li>
+        <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+            1.Who developed Python Programming Language?
+        </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question0" value="A"/><span>Wick van Rossum</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question0" value="B"/><span>Rasmus Lerdorf</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question0" value="C"/><span>Guido van Rossum</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question0" value="D"/><span>Niene Stom</span>
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                2.Which type of programming does Python support?
+            
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="A"/><span>Object-oriented programming</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="B"/><span>structured programming</span>
+                    </label>
+                </li>
+                <li>
+                    <label >
+                        <input type="radio" name="question1" value="C"/><span>functional programming</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question1" value="D"/><span>all of the above</span>
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                3.Is Python case sensitive?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="A"/><span>Yes</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="B"/><span>No</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="C"/><span>Can't say</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question2" value="D"/><span>Neither of the above</span>
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                4.Which of the following is used to define a block of code in Python language?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="A"/><span>Indentation</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="B"/><span>Curly braces</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="C"/><span>Key</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question3" value="D"/><span>All of the above</span>
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                5.Which of the following is true for variable names in Python?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="A"/><span>underscore and ampersand are the only two special characters allowed</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="B"/><span>unlimited length</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="C"/><span>all private members must have leading and trailing underscores</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question4" value="D"/><span>None of them are mentioned</span>
+                    </label>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                6.What is the order of precedence in python?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question5" value="A"/><span>Exponential, Parentheses, Multiplication, Division, Addition, Subtraction</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question5" value="B"/><span>Exponential, Parentheses, Division, Multiplication, Addition, Subtraction</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question5" value="C"/><span>Parentheses, Exponential, Multiplication, Division, Subtraction, Addition</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question5" value="D"/><span>Parentheses, Exponential, Multiplication, Division, Addition, Subtraction</span>
+                    </label>
+                </li>
+            </ul> 
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                7.What are the two main types of functions in Python?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question6" value="A"/><span>System Function</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question6" value="B"/><span>Custom Function</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question6" value="C"/><span>Built-in function and User-defined Function</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question6" value="D"/><span>User Function</span>
+                    </label>
+                </li>
+            </ul> 
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                8.Which of the followoing is immutable?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question7" value="A"/><span>List</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question7" value="B"/><span>Tuple</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question7" value="C"/><span>Set</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question7" value="D"/><span>Dictionary</span>
+                    </label>
+                </li>
+            </ul> 
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                9.Which of this following is not a string operator?
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question8" value="A"/><span>-</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question8" value="B"/><span>+</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question8" value="C"/><span>*</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question8" value="D"/><span>None</span>
+                    </label>
+                </li>
+            </ul> 
+        </li>
+        <li>
+            <p style="font-size: 20px; font-family:palatino; font-weight:bold">
+                10.Which one of the following doesn't exist in Python? 
+            </p>
+            <ul class="choices">
+                <li>
+                    <label>
+                        <input type="radio" name="question9" value="A"/><span>Lambda function</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question9" value="B"/><span>XOR Operator</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question9" value="C"/><span>Identifiers</span>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="question9" value="D"/><span>Pointers</span>
+                    </label>
+                </li>
+            </ul> 
+        </li>
+    </ul>
+    <script>
+        var answers = ["C", "D", "A", "A", "B", "D", "C", "B", "A", "D"],
+    tot = answers.length;
+function getCheckedValue(radioName) {
+    var radios = document.getElementsByName(radioName);
+    for (var y = 0; y < radios.length; y++)
+        if (radios[y].checked) return radios[y].value;
+}
+function getScore() {
+    var score = 0;
+    for (var i = 0; i < tot; i++)
+        if (getCheckedValue("question" + i) === answers[i]) score += 1;
+    return score;
+}
+function returnScore() {
+    document.getElementById("myresults").innerHTML =
+        "Your score is " + getScore() + "/" + tot;
+    if (getScore() > 2) {
+        console.log("Bravo");
+    }
+}
+    </script>
+    <button class="view-results" onclick="returnScore()">View Results</button>
+    <span id="myresults" class="my-results">My results will appear here</span>
+</body>
+</html>

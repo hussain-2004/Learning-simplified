@@ -1,0 +1,218 @@
+.title{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+#navBar{
+    text-align: center;
+
+}
+.navbar-brand{
+    font-weight:900;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blue;
+}
+
+.navElements{
+    color:black;
+    font-size: 20px;
+    
+}
+#explore{
+    background-color: blue;
+    color:white;
+    border:2px solid black ;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.btn{
+    background-color: blue;
+    color:white;
+    border:2px solid black ;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#tag{
+    font-size: 50px;
+    font-weight: bold;
+}
+#imgTag{
+    position:relative;
+    left:700px;
+    bottom:450px;
+   
+}
+#tagText{
+    font-size: 30px;
+}
+#tagContent{
+    padding:50px;
+}
+#c1{
+    height:620px;
+}
+#getCertifiedHead{
+    text-align: center;
+    font-size: 50px;
+    font-weight:200px;
+    color:rgb(94, 94, 194);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#getCertifiedHeadTag{
+    padding-left:90px;
+    font-size: 27px;
+    font-weight: 530;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.getCertifiedFourCardsEach{
+    border: 4px solid blue;
+    
+}
+
+.card-body{
+    background-color: rgb(232, 234, 244);
+}
+#getCertifiedFourCards{
+    
+    padding-left: 210px;
+    padding-right: 210px;
+}
+#moreCertifications{
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#contentSection1{
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 25px;
+    background-color: rgb(246, 252, 252);
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+#webTechHead{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.webTechCards{
+    margin:90px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+#webTechHead2{
+    margin-top: 200px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(63, 165, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.growth{
+    margin-top: 200px;
+    height: 630px;
+    background-color: rgb(227, 236, 241);
+    margin-bottom: 100px;
+    width: 100%;
+    
+}
+#growth1{
+    
+    width: 330px;
+    position: relative;
+    bottom:50px;
+    left:200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+#growth2{
+    
+    width: 300px;
+    position: relative;
+    bottom:50px;
+    left:230px;
+    padding-top:30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+#growth3{
+    
+    width: 300px;
+    position: relative;
+    bottom:540px;
+    left:550px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+#growthContent{
+    width: 600px;
+    position:relative;
+    bottom:850px;
+    left:900px;
+
+}
+#growthContentHeading{
+    color:blueviolet
+    
+}
+#growthContentpara{
+    font-size: x-large;
+    font-weight: 500;
+}
+#ExploreMore2{
+    position:relative;
+    bottom:830px;
+    left:920px;
+    width:100px;
+    background-color: rgb(123, 123, 192);
+}
+#more{
+    margin-top: 200px;
+}
+#moreHead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 100px;
+    color:blue;
+}
+.more2{
+    padding:50px;
+}
+.footer{
+    
+    margin-top: 100px;
+    background-color: black                                                                                                                                                                                                                  ;
+    height:600px;
+    width: 1600px;
+    position: relative;
+    top:200px;
+    right: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#form{
+    padding:50px;
+    position: relative;
+    left:950px;
+}
+#help{
+    padding: 10px;
+    color: rgb(217, 217, 172);
+    position: relative;
+    right:1000px;
+    bottom: 500px;;
+}
+#endName{
+    color: white;
+    position: relative;
+    right:1000px;
+    bottom: 230px;
+
+}
